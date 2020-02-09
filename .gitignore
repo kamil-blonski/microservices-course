@@ -1,0 +1,10 @@
+.idea/
+*.iml
+
+backend/bin/
+backend/target/
+backend/**/*.iml
+backend/src/main/resources/*.properties
+!backend/src/main/resources/application-example.properties
+backend/src/test/resources/*.properties
+!backend/src/test/resources/application-test-example.properties
