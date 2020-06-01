@@ -1,15 +1,15 @@
 package guru.springframework.SpringBootMicroservices.services;
 
-import guru.springframework.SpringBootMicroservices.web.model.BeerDTO;
+import guru.springframework.SpringBootMicroservices.web.model.BeerDto;
 
 import java.util.UUID;
 
 public interface BeerService {
-	BeerDTO getBeerById(UUID beerId);
+	BeerDto getBeerById(UUID beerId);
 
-	BeerDTO saveNewBeer(BeerDTO beerDTO);
+	BeerDto saveNewBeer(BeerDto beerDTO);
 
-	void updateBeer(UUID beerId, BeerDTO beerDTO);
+	void updateBeer(UUID beerId, BeerDto beerDTO);
 
 	void deleteById(UUID beerId);
 }

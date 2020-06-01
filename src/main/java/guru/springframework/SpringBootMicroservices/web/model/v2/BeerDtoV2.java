@@ -1,5 +1,6 @@
 package guru.springframework.SpringBootMicroservices.web.model;
 
+import guru.springframework.SpringBootMicroservices.web.model.v2.BeerStyleEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,9 +13,9 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder /* lombook going to implement builder pattern */
 /* we need to enable Settings -> Build, Execution, ... -> COmpiler -> Enable annotation processing */
-public class BeerDTO {
+public class BeerDtoV2 {
 	private UUID id;
 	private String beerName;
-	private String beerStyle;
+	private BeerStyleEnum beerStyle;
 	private Long upc;
 }

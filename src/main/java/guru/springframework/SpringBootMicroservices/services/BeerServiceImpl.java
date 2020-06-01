@@ -1,6 +1,6 @@
 package guru.springframework.SpringBootMicroservices.services;
 
-import guru.springframework.SpringBootMicroservices.web.model.BeerDTO;
+import guru.springframework.SpringBootMicroservices.web.model.BeerDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -10,8 +10,8 @@ import java.util.UUID;
 @Service
 public class BeerServiceImpl implements BeerService {
 	@Override
-	public BeerDTO getBeerById(UUID beerId) {
-		return BeerDTO.builder()
+	public BeerDto getBeerById(UUID beerId) {
+		return BeerDto.builder()
 						.id(UUID.randomUUID())
 						.beerName("Galaxy Cat")
 						.beerStyle("Pale Ale")
@@ -19,14 +19,14 @@ public class BeerServiceImpl implements BeerService {
 	}
 
 	@Override
-	public BeerDTO saveNewBeer(BeerDTO beerDTO) {
-		return BeerDTO.builder()
+	public BeerDto saveNewBeer(BeerDto beerDTO) {
+		return BeerDto.builder()
 						.id(UUID.randomUUID())
 						.build();
 	}
 
 	@Override
-	public void updateBeer(UUID beerId, BeerDTO beerDTO) {
+	public void updateBeer(UUID beerId, BeerDto beerDTO) {
 		//todo: impl - would add a real impl to update beer
 	}
 

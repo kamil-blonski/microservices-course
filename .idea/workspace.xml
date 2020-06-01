@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd4a5e2-c551-4b16-8e22-b3515585ff97" name="Default Changelist" comment="Beer Impl">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ccd4a5e2-c551-4b16-8e22-b3515585ff97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/v2/BeerServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/v2/BeerServiceV2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/controller/v2/BeerControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/model/v2/BeerDtoV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/model/v2/BeerStyleEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/SpringBootMicroservicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/SpringBootMicroservicesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/BeerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/BeerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/BeerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/BeerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/services/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/controller/BeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/controller/BeerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/model/BeerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/model/BeerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/model/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/SpringBootMicroservices/web/model/CustomerDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/SpringBootMicroservicesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/SpringBootMicroservicesApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/services/BeerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/services/BeerService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/services/BeerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/services/BeerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/services/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/services/CustomerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/controller/BeerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/controller/BeerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/model/BeerDTO$BeerDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/model/BeerDTO$BeerDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/model/BeerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/guru/springframework/SpringBootMicroservices/web/model/BeerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/SpringBootMicroservices/SpringBootMicroservicesApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/SpringBootMicroservices/SpringBootMicroservicesApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -61,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.SpringBootMicroservices.services.v2" />
       <recent name="guru.springframework.SpringBootMicroservices.services" />
     </key>
   </component>
@@ -101,71 +107,99 @@
       <workItem from="1590744950488" duration="964000" />
       <workItem from="1590995856285" duration="2514000" />
       <workItem from="1591000109808" duration="50000" />
-      <workItem from="1591000374375" duration="7563000" />
+      <workItem from="1591000374375" duration="12487000" />
     </task>
+    <task id="LOCAL-00001" summary="Beer Impl">
+      <created>1591008793281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591008793281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Beer Impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beer Impl" />
+    <MESSAGE value="Section 4/36" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 4/36" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="178" key="#Plugins" timestamp="1591001793685">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="178" key="#Plugins/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591001793685" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1591007213363">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2589" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1591012073188">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591007213363" />
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1591008500100">
+    <state x="2589" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591012073188" />
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1591008792227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591008500100" />
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591008792227" />
     <state x="493" y="179" key="FileChooserDialogImpl" timestamp="1591004829983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="493" y="179" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591004829983" />
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590998019953" />
-    <state width="1237" height="252" key="GridCell.Tab.0.bottom" timestamp="1591005710096">
+    <state x="483" y="242" key="GitRewordDialog" timestamp="1591008834099">
       <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="483" y="242" key="GitRewordDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591008834099" />
+    <state width="1877" height="254" key="GridCell.Tab.0.bottom" timestamp="1591011459777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710096" />
-    <state width="938" height="338" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590999968538" />
-    <state width="1237" height="252" key="GridCell.Tab.0.center" timestamp="1591005710096">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459777" />
+    <state width="1877" height="254" key="GridCell.Tab.0.center" timestamp="1591011459777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710096" />
-    <state width="938" height="338" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590999968537" />
-    <state width="1237" height="252" key="GridCell.Tab.0.left" timestamp="1591005710096">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459777" />
+    <state width="1877" height="254" key="GridCell.Tab.0.left" timestamp="1591011459777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710096" />
-    <state width="938" height="338" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590999968536" />
-    <state width="1237" height="252" key="GridCell.Tab.0.right" timestamp="1591005710096">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459777" />
+    <state width="1877" height="254" key="GridCell.Tab.0.right" timestamp="1591011459777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710096" />
-    <state width="938" height="338" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590999968537" />
-    <state width="1237" height="252" key="GridCell.Tab.1.bottom" timestamp="1591005710097">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459777" />
+    <state width="1877" height="254" key="GridCell.Tab.1.bottom" timestamp="1591011459778">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710097" />
-    <state width="1237" height="252" key="GridCell.Tab.1.center" timestamp="1591005710096">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459778" />
+    <state width="1877" height="254" key="GridCell.Tab.1.center" timestamp="1591011459777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710096" />
-    <state width="1237" height="252" key="GridCell.Tab.1.left" timestamp="1591005710096">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459777" />
+    <state width="1877" height="254" key="GridCell.Tab.1.left" timestamp="1591011459777">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710096" />
-    <state width="1237" height="252" key="GridCell.Tab.1.right" timestamp="1591005710097">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="254" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459777" />
+    <state width="1877" height="254" key="GridCell.Tab.1.right" timestamp="1591011459778">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="252" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591005710097" />
+    <state width="1877" height="254" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591011459778" />
     <state x="2096" y="231" key="SettingsEditor" timestamp="1591000080992">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -178,9 +212,13 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2576" y="252" width="607" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591001088697" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591001787882">
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1591009281033">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591001787882" />
+    <state x="2536" y="240" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591009281033" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591010721492">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591010721492" />
   </component>
 </project>

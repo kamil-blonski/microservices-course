@@ -11,7 +11,10 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder /* lombook going to implement builder pattern */
-public class CustomerDTO {
+/* we need to enable Settings -> Build, Execution, ... -> COmpiler -> Enable annotation processing */
+public class BeerDto {
 	private UUID id;
-	private String name;
+	private String beerName;
+	private String beerStyle;
+	private Long upc;
 }
