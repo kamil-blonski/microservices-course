@@ -1,6 +1,7 @@
 package guru.springframework.SpringBootMicroservices.web.controller;
 
 import guru.springframework.SpringBootMicroservices.services.BeerService;
+import guru.springframework.SpringBootMicroservices.web.exception.custom.BeerNotFoundException;
 import guru.springframework.SpringBootMicroservices.web.model.BeerDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -34,8 +35,11 @@ public class BeerController {
 	}
 
 	@PostMapping
-	public ResponseEntity handlePost9(@Valid @RequestBody BeerDto beerDTO){
+	public ResponseEntity handlePost(@Valid @RequestBody BeerDto beerDTO) throws BeerNotFoundException {
 		BeerDto saveDTO = beerService.saveNewBeer(beerDTO);
+		if(beerDTO.getUpc() == 1) {
+			throw new BeerNotFoundException();
+		}
 		HttpHeaders headers = new HttpHeaders();
 		//TODO: add host name to url
 		headers.add("Location", "/api/v1/beer" + saveDTO.getId().toString());
