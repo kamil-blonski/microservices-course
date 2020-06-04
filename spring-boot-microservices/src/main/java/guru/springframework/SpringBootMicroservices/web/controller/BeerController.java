@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.UUID;
 
 @Deprecated
@@ -33,7 +34,7 @@ public class BeerController {
 	}
 
 	@PostMapping
-	public ResponseEntity handlePost(@RequestBody BeerDto beerDTO){
+	public ResponseEntity handlePost9(@Valid @RequestBody BeerDto beerDTO){
 		BeerDto saveDTO = beerService.saveNewBeer(beerDTO);
 		HttpHeaders headers = new HttpHeaders();
 		//TODO: add host name to url
@@ -43,7 +44,7 @@ public class BeerController {
 	}
 
 	@PutMapping({"/{beerId}"})
-	public ResponseEntity handleUpdate(@PathVariable UUID beerId, @RequestBody BeerDto beerDTO){
+	public ResponseEntity handleUpdate(@PathVariable UUID beerId, @Valid @RequestBody BeerDto beerDTO){
 		beerService.updateBeer(beerId, beerDTO);
 		return new ResponseEntity(HttpStatus.NO_CONTENT);
 	}
