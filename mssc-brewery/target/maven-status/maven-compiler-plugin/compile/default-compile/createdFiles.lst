@@ -1,0 +1,17 @@
+guru\springframework\SpringBootMicroservices\web\controller\v2\BeerControllerV2.class
+guru\springframework\SpringBootMicroservices\web\model\BeerDtoV2$BeerDtoV2Builder.class
+guru\springframework\SpringBootMicroservices\web\model\v2\BeerStyleEnum.class
+guru\springframework\SpringBootMicroservices\services\BeerService.class
+guru\springframework\SpringBootMicroservices\web\model\BeerDtoV2.class
+guru\springframework\SpringBootMicroservices\web\controller\CustomerController.class
+guru\springframework\SpringBootMicroservices\web\model\BeerDto$BeerDtoBuilder.class
+guru\springframework\SpringBootMicroservices\SpringBootMicroservicesApplication.class
+guru\springframework\SpringBootMicroservices\web\model\CustomerDto$CustomerDtoBuilder.class
+guru\springframework\SpringBootMicroservices\services\CustomerService.class
+guru\springframework\SpringBootMicroservices\services\CustomerServiceImpl.class
+guru\springframework\SpringBootMicroservices\web\model\CustomerDto.class
+guru\springframework\SpringBootMicroservices\web\model\BeerDto.class
+guru\springframework\SpringBootMicroservices\services\BeerServiceImpl.class
+guru\springframework\SpringBootMicroservices\services\v2\BeerServiceV2Impl.class
+guru\springframework\SpringBootMicroservices\services\v2\BeerServiceV2.class
+guru\springframework\SpringBootMicroservices\web\controller\BeerController.class
