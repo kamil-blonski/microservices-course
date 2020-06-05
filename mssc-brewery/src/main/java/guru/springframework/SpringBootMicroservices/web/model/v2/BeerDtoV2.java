@@ -1,4 +1,4 @@
-package guru.springframework.SpringBootMicroservices.web.model;
+package guru.springframework.SpringBootMicroservices.web.model.v2;
 
 import guru.springframework.SpringBootMicroservices.web.model.v2.BeerStyleEnum;
 import lombok.AllArgsConstructor;

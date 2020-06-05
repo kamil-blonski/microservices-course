@@ -1,7 +1,7 @@
 package guru.springframework.SpringBootMicroservices.web.controller.v2;
 
 import guru.springframework.SpringBootMicroservices.services.v2.BeerServiceV2;
-import guru.springframework.SpringBootMicroservices.web.model.BeerDtoV2;
+import guru.springframework.SpringBootMicroservices.web.model.v2.BeerDtoV2;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
