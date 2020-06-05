@@ -8,7 +8,7 @@ import org.mapstruct.Mapper;
 Mapper generates methods required to map Beer <=> BeerDto. Mave, -> Lifecycle -> Clean & Compile.
 Methos are available in target/generated-sources
  */
-@Mapper
+@Mapper(uses = {DateMapper.class})
 public interface BeerMapper {
 
 	BeerDto beerToBeerDto(Beer beer);
