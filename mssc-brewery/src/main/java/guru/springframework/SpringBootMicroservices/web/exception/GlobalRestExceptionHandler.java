@@ -1,4 +1,4 @@
-package guru.springframework.SpringBootMicroservices.web;
+package guru.springframework.SpringBootMicroservices.web.exception;
 
 import guru.springframework.SpringBootMicroservices.web.exception.ApiErrorResponse;
 import guru.springframework.SpringBootMicroservices.web.exception.custom.BeerNotFoundException;
@@ -52,8 +52,8 @@ public class GlobalRestExceptionHandler extends ResponseEntityExceptionHandler {
 
 		ApiErrorResponse apiResponse = new ApiErrorResponse
 			.ApiErrorResponseBuilder()
-			.withMessage("Beer with given ID does not exists.")
-			.withDetail("Beer with given ID does not exists ...")
+			.withMessage("Message fot 400 bad request")
+			.withDetail("...")
 			.withError_code("404")
 			.withStatus(HttpStatus.NOT_FOUND)
 			.atTime(LocalDateTime.now(ZoneOffset.UTC))
