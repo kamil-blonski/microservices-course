@@ -2,6 +2,7 @@ package guru.springframework.SpringBootMicroservices.web.controller.v2;
 
 import guru.springframework.SpringBootMicroservices.services.v2.BeerServiceV2;
 import guru.springframework.SpringBootMicroservices.web.model.BeerDtoV2;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,14 +19,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.UUID;
 
 @RequestMapping("/api/v2/beer")
+@RequiredArgsConstructor
 @RestController
 public class BeerControllerV2 {
 
 	private final BeerServiceV2 beerServiceV2;
-
-	public BeerControllerV2(BeerServiceV2 beerServiceV2) {
-		this.beerServiceV2 = beerServiceV2;
-	}
 
 	@GetMapping("/{beerId}")
 	public ResponseEntity<BeerDtoV2> getBeer(@PathVariable UUID beerId){
