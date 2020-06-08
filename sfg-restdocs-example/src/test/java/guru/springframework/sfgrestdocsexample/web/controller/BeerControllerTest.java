@@ -33,6 +33,9 @@ import static org.springframework.restdocs.snippet.Attributes.key;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 //import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+//Path org.springramework.restdocs.templates can not be creates as one string. Each word must be created as a separate directory.
+//In /test/resources (resources catalog was created by me)
+//request-fields.snippet was added to add a constraints to generated documentatation
 
 @ExtendWith(RestDocumentationExtension.class)
 @AutoConfigureRestDocs(uriScheme = "https", uriHost = "dev.springframework.guru", uriPort = 80)
