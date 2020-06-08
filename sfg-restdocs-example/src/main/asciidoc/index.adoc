@@ -1,0 +1,41 @@
+= SFG Brewery Order Service Docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:sectnums:
+
+== Intro
+Test of spring docs
+
+== GET Beer
+=== cURL request
+include::{snippets}/v1/beer-get/curl-request.adoc[]
+
+=== Http request
+include::{snippets}/v1/beer-get/http-request.adoc[]
+
+=== HtpResponse
+include::{snippets}/v1/beer-get/http-response.adoc[]
+
+=== Response Body
+include::{snippets}/v1/beer-get/response-body.adoc[]
+
+=== Response Fields
+include::{snippets}/v1/beer-get/response-fields.adoc[]
+
+== PUT Beer
+=== cURL request
+include::{snippets}/v1/beer-new/curl-request.adoc[]
+
+=== Http Request
+include::{snippets}/v1/beer-new/http-request.adoc[]
+
+=== Http Response
+include::{snippets}/v1/beer-new/http-response.adoc[]
+
+=== Response Body
+include::{snippets}/v1/beer-new/response-body.adoc[]
+
+=== Response Fields
+include::{snippets}/v1/beer-new/request-fields.adoc[]
